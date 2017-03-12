@@ -4,7 +4,7 @@
 @Config =
 
 	# Basic Details
-	name: 'My App'
+	name: 'Darxom'
 	title: ->
 			TAPi18n.__ 'configTitle'
 	subtitle: ->
@@ -27,30 +27,30 @@
 	dateFormat: 'D/M/YYYY'
 
 	# Meta / Extenrnal content
-	privacyUrl: 'http://meteorfactory.io'
-	termsUrl: 'http://meteorfactory.io'
+	privacyUrl: 'https://www.darxe.com/privacy'
+	termsUrl: 'https://www.darxe.com/terms'
 
 	# For email footers
 	legal:
-		address: 'Jessnerstrasse 18, 12047 Berlin'
-		name: 'Meteor Factory'
-		url: 'http://benjaminpeterjones.com'
+		address: 'Orem Utah'
+		name: 'Darxom'
+		url: 'https://www.darxe.com'
 
-	about: 'http://meteorfactory.io'
-	blog: 'http://learn.meteorfactory.io'
+	about: 'https://www.darxe.com'
+	blog: 'https://www.darxe.com/blog'
 
 	socialMedia:
 		facebook:
-			url: 'http://facebook.com/benjaminpeterjones'
+			url: 'http://facebook.com/darxedigital'
 			icon: 'facebook'
 		twitter:
-			url: 'http://twitter.com/BenPeterJones'
+			url: 'http://twitter.com/darxedigital'
 			icon: 'twitter'
 		github:
-			url: 'http://github.com/yogiben'
+			url: 'http://github.com/walkward'
 			icon: 'github'
 		info:
-			url: 'http://meteorfactory.io'
+			url: 'https://www.darxe.com'
 			icon: 'link'
 
 	#Routes

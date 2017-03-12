@@ -4,7 +4,7 @@ Router.map ->
       
   @route "account",
     path: "/account"
-
+	
   @route "setUserName",
     path: "/setUserName"
     onBeforeAction: ->

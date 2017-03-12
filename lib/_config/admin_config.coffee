@@ -9,6 +9,12 @@
 				{ label: 'Title', name: 'title' }
 				{ label: 'User', name: 'author()', template: 'adminUserCell' }
 			]
+		Pages:
+			color: 'yellow'
+			icon: 'pencil'
+			tableColumns: [
+				{ label: 'Title', name: 'title' }
+			]
 		Comments:
 			color: 'green'
 			icon: 'comments'
@@ -32,3 +38,5 @@
 		homeUrl: '/dashboard'
 	autoForm:
 		omitFields: ['createdAt', 'updatedAt']
+		
+AdminDashboard.addSidebarItem('Analytics', AdminDashboard.path('/analytics'), { icon: 'line-chart' })
